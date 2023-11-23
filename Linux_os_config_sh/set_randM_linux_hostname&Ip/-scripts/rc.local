@@ -1,0 +1,9 @@
+#!/bin/bash -e
+
+# rc.local
+# change file permission to root user only access:
+# sudo chmod 700 start_fakeip
+
+nohup /bin/bash /etc/udev/start_fakeip.sh
+
+exit 0
